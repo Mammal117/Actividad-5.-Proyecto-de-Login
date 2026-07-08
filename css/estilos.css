@@ -1,0 +1,46 @@
+:root{
+    --color-primario: #1B4B66;
+    --color-secundario: #2F8F9D;
+    --color-fondo: #EAF3F4;
+    --color-borde: #C3DDE2;
+    --color-acento: #F2A541;
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-sistema{
+    background-color: var(--color-primario);
+}
+
+.text-primario{
+    color: var(--color-primario) !important;
+}
+
+.boton-primario{
+    background-color: var(--color-primario);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.boton-primario:hover{
+    background-color: var(--color-secundario);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.sub-item{
+    background-color: #FAFBFC;
+}
+
+.estado-edad{
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}

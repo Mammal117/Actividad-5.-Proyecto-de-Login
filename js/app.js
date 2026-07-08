@@ -40,9 +40,6 @@ function mostrarSeccion(nombreSeccion) {
     document.getElementById('seccion' + capitalizar(nombreSeccion)).classList.remove('d-none');
 }
 
-function capitalizar(texto) {
-    return texto.charAt(0).toUpperCase() + texto.slice(1);
-}
 
 
 function registrarAlumno() {
