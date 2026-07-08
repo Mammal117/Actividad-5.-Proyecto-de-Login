@@ -84,34 +84,42 @@ A continuacion se muestran capturas del flujo completo funcionando.
 
 ### Pantalla de login
 
+<img width="617" height="845" alt="image" src="https://github.com/user-attachments/assets/d73b923b-4f97-4078-b435-795cb7453948" />
 
 
 ### Validacion de datos incorrectos
 
+<img width="641" height="460" alt="image" src="https://github.com/user-attachments/assets/f0dfb6ab-eab1-40ba-a810-239fd68fc254" />
 
 
 ### Acceso exitoso
+<img width="880" height="827" alt="image" src="https://github.com/user-attachments/assets/ca0f49f3-8bef-4fae-a1de-720f323e03fa" />
 
 
 
 ### Panel interno (index) con navbar y sidebar
 
+<img width="1912" height="751" alt="image" src="https://github.com/user-attachments/assets/6df3e929-5d7a-4dff-8259-cf4488e8c7e2" />
 
 
 ### Captura de usuario
 
+<img width="1916" height="728" alt="image" src="https://github.com/user-attachments/assets/765f9785-3df7-4f6a-9ca0-43cf972e402b" />
 
 
 ### Registro de alumno con numero de control
 
+<img width="491" height="132" alt="image" src="https://github.com/user-attachments/assets/928a4d74-7887-467d-860e-55498078ad86" />
 
 
 ### Modal de verificacion de edad
 
+<img width="1122" height="715" alt="image" src="https://github.com/user-attachments/assets/b5f5e87e-4770-494d-ac40-96161e2d9bb3" />
 
 
 ### Cierre de sesion
 
+<img width="361" height="202" alt="image" src="https://github.com/user-attachments/assets/adb88cfb-e4b5-444f-90af-7dcb718557e7" />
 
 
 ## Enlaces
