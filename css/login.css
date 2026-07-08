@@ -1,0 +1,149 @@
+:root{
+    --color-primario: #1B4B66;
+    --color-secundario: #2F8F9D;
+    --color-fondo: #EAF3F4;
+    --color-texto: #1D2F33;
+    --color-borde: #C3DDE2;
+
+    --contenedor-formulario: #FFFFFF;
+    --form-fondo: #F2F8F9;
+    --input-readonly: #EAF3F4;
+    --color-acento: #F2A541;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+    color: var(--color-texto);
+}
+
+.contenedor-formulario{
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--contenedor-formulario);
+    padding: 45px 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    border-top: 4px solid var(--color-acento);
+}
+
+.encabezado-escuela{
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.icono-escuela{
+    font-size: 46px;
+    color: var(--color-primario);
+    background: var(--form-fondo);
+    width: 84px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 12px auto;
+}
+
+.nombre-escuela{
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--color-primario);
+    margin: 0;
+}
+
+.subtitulo-escuela{
+    font-size: 13px;
+    color: var(--color-secundario);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+h1{
+    font-size: 26px;
+    color: var(--color-primario);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+label{
+    font-weight: 600;
+    color: var(--color-texto);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.input-group-icono .input-group-text{
+    background-color: var(--form-fondo);
+    border: 1px solid var(--color-borde);
+    color: var(--color-secundario);
+}
+
+.input-group-icono .toggle-password{
+    cursor: pointer;
+}
+
+.input-group-icono .toggle-password:hover{
+    background-color: var(--color-borde);
+}
+
+.form-control{
+    border: 1px solid var(--color-borde);
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+.form-control:focus{
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 3px rgba(47, 143, 157, 0.2);
+    z-index: 3;
+}
+
+.boton-enviar{
+    background-color: var(--color-primario);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.boton-enviar:hover{
+    background-color: var(--color-secundario);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(27, 75, 102, 0.3);
+}
+
+.boton-limpiar{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--color-borde);
+    color: var(--color-texto);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.boton-limpiar:hover{
+    background-color: var(--form-fondo);
+    color: var(--color-texto);
+}

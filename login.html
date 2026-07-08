@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="contenedor-formulario">
+
+        <div class="encabezado-escuela">
+            <i class="bi bi-mortarboard-fill icono-escuela"></i>
+            <p class="nombre-escuela">Instituto Tecnológico</p>
+            <p class="subtitulo-escuela">Sistema Escolar</p>
+        </div>
+
+        <h1>Inicia Sesión</h1>
+
+        <form onsubmit="return false;">
+
+            <div class="mb-4">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <div class="input-group input-group-icono">
+                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                    <input type="text" id="correo" class="form-control" placeholder="Eje: Ahuitz@hotmail.com">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label for="password" class="form-label">Contraseña</label>
+                <div class="input-group input-group-icono">
+                    <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
+                    <input type="password" id="password" class="form-control" placeholder="Min. 8 caracteres, mayús, minús, número, especial">
+                    <span class="input-group-text toggle-password" onclick="togglePassword()">
+                        <i class="bi bi-eye-fill" id="iconoOjo"></i>
+                    </span>
+                </div>
+            </div>
+
+            <button type="button" class="btn boton-enviar" onclick="iniciarSesion()">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Iniciar Sesión
+            </button>
+            <button type="reset" class="btn boton-limpiar mt-2">
+                <i class="bi bi-arrow-counterclockwise me-2"></i>Limpiar todo
+            </button>
+
+        </form>
+    </div>
+
+    <!-- Funciones de validacion reutilizables -->
+    <script src="js/utileria.js"></script>
+    <!-- Logica propia del login -->
+    <script src="js/login.js"></script>
+</body>
+</html>
