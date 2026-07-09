@@ -7,6 +7,10 @@ Proyecto desarrollado en equipo (2 integrantes) que simula el acceso a un sistem
 - Ortiz Bautista Josue Ahuitz - Encargado del login
 - Perez Cruz Haniel Eliud - Encargado del panel interno (index)
 
+
+## Link de GitPages:  https://mammal117.github.io/Actividad-5.-Proyecto-de-Login/index.html
+
+
 ## Descripcion del proyecto
 
 Este proyecto simula el flujo de acceso a un sistema, sin conexion a una base de datos real. Se utilizo **Bootstrap** como framework de CSS para el diseño, y JavaScript puro para las validaciones y la logica de la aplicacion.
